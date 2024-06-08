@@ -22,8 +22,4 @@ public class scrMainmenu : MonoBehaviour
     {
         SceneManager.LoadSceneAsync("levels");
     }
-    public void sorting(string gameName)
-    {
-        SceneManager.LoadSceneAsync("sort_bestTOworst");
-    }
 }
