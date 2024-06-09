@@ -24,7 +24,7 @@ public class pass : MonoBehaviour
             Debug.LogError("Toggle Button is not assigned in the Inspector.");
             return;
         }
-        passwordInputField.contentType = InputField.ContentType.Password;
+        passwordInputField.contentType = InputField.ContentType.Password;//başlangıçta direkt olarak password halinde atama yapmasını sağlar
         passwordInputField.ForceLabelUpdate();
 
 
@@ -39,15 +39,15 @@ public class pass : MonoBehaviour
         if (isPasswordVisible)
         {
 
-            passwordInputField.contentType = InputField.ContentType.Standard;
+            passwordInputField.contentType = InputField.ContentType.Standard;//bu kısım * olmayan şifrenin görünen kısmını aktif etmedir
         }
         else
         {
 
-            passwordInputField.contentType = InputField.ContentType.Password;
+            passwordInputField.contentType = InputField.ContentType.Password;//bu kısım ise inputfieldlar arasında şifrenin * halini sağlar
         }
 
 
-        passwordInputField.ForceLabelUpdate();
+        passwordInputField.ForceLabelUpdate();//yazıyı değiştiren kısım
     }
 }
