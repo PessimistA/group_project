@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float moveSpeed = 5f; // Hareket hizini ayarlayin
+    public float moveSpeed = 5f; 
     private bool hasReachedFinish = false; // FinishPoint'a ulasildi mi?
 
     void Update()
