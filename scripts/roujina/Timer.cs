@@ -10,7 +10,6 @@ public class Timer : MonoBehaviour
 
     void Start()
     {
-        // Timer'i otomatik olarak baslatmak istemiyorsaniz bu satiri yoruma alin
         StartTimer();
     }
 
